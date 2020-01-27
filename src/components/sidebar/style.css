@@ -1,0 +1,44 @@
+.LOGO {
+  display: inline-block;
+  width: 99px;
+  height: 44px;
+  font-family: LaoMN;
+  font-size: 33px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  color: #e39725;
+  padding-bottom: 31px;
+  padding-right: 20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 249px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #333333;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #e39725;
+}
+
+.nav-header {
+  padding: 0;
+  margin: 0;
+}

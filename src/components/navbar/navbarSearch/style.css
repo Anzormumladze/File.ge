@@ -1,0 +1,20 @@
+.searchContainer {
+  width: 348px;
+  height: 35px;
+  border-radius: 18px;
+  border: solid 5px #333333;
+  background-color: #333333;
+}
+
+.searchContainer h1 {
+  opacity: 0.6;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(247, 247, 247, 0.5);
+}
