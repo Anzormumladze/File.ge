@@ -1,8 +1,7 @@
 .menu-Container li {
   list-style-type: none;
-  width: 30px;
   height: 23px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -23,4 +22,10 @@
 .menu-Container {
   border: solid 1px #707070;
   background-color: #3a3a3a;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu-Container li {
+    display: none;
+  }
 }

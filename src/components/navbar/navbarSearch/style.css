@@ -1,12 +1,11 @@
-.searchContainer {
-  width: 348px;
-  height: 35px;
+.Input {
+  height: 25px;
   border-radius: 18px;
   border: solid 5px #333333;
   background-color: #333333;
 }
 
-.searchContainer h1 {
+.Input {
   opacity: 0.6;
   font-family: HelveticaNeue;
   font-size: 14px;
@@ -17,4 +16,19 @@
   letter-spacing: normal;
   text-align: left;
   color: rgba(247, 247, 247, 0.5);
+}
+
+@media only screen and (max-width: 600px) {
+  .searchContainer {
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .searchContainer {
+    display: none;
+  }
 }
