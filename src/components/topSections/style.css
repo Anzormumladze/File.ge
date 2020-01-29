@@ -1,0 +1,49 @@
+.border-line {
+  border: 1px solid #e39725;
+}
+
+.title {
+  width: 100%;
+  height: 23px;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(247, 247, 247, 0.5);
+}
+
+.wrapper {
+  flex-direction: row;
+}
+
+.cards {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 181px;
+  height: 100%;
+  border: solid 3px #333333;
+  background-color: #333333;
+}
+
+.cards-container {
+  height: 30px;
+  margin-top: auto;
+  background-color: #333333;
+}
+
+.cards-title {
+  font-family: HelveticaNeue;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e39725;
+}
